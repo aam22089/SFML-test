@@ -2,6 +2,8 @@
 
 Grid::Grid(int m, int n)
 {
+    this->rows=m;
+    this->cols=n;
     for (int i = 0; i < m; i++)
     {
         tablero.push_back({});
